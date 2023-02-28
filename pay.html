@@ -1,0 +1,43 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Contact Info </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<form action="">
+
+<h2 class="con"> Contact Information <img src="contact.png" width="80px" height="80px"> </h2>
+
+<p> <b> Name: </p>
+<p><input type="text" class ="name" id="name" placeholder="Mansi Vidyarthi" required></p>
+
+<fieldset> <legend> Gender </legend>
+<p> Male <input type="radio" name="gender"> 
+ Female <input type="radio" name="gender"> 
+ Other <input type="radio" name="gender"> </p>
+</fieldset>
+<p> Contact Number:</p><p> <input type="number" class="num" id="num" placeholder="11122-33322" required> </p>
+<p> Address: </p><p><textarea name="add" id="add" rows="10" col="500" placeholder="Enter your address"></textarea> </p>
+<p> Email:</p><p> <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required> </p>
+<hr>
+<h2 class="po"> Payment Options</h2>
+<p> Card Type:</p><p> <select name="type">
+<option name="">--Select card type--</option>
+<option name="">MasterCard</option>
+<option name="">Visa</option>
+<option name="">RuPay</option>
+</select>
+<p> Card Number:</p><p> <input type="number" placeholder="1111-2222-3333-4444"> </p>
+<p> Valid Thru:</p><p> <input type="date" name="date"></p>
+<p> CVV: </p><p><input type="password" name="pass"></p>
+<input type="submit" name="Pay Now">
+
+
+</form>
+</body>
+</html>
